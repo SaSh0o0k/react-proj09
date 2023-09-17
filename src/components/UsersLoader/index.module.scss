@@ -1,0 +1,50 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1968b1;
+}
+
+.userList {
+  text-align: center;
+
+  .nationality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .currPage {
+    font-weight: 900;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 10px 0 10px;
+  }
+
+  hr {
+    text-align: center;
+    width: 120px;
+    height: 2px;
+    background-color: #000;
+    margin: -10px auto 10px;
+    border: none;
+  }
+
+  button {
+    border: none;
+  }
+}
